@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let ListaOfi=document.querySelector('#select')
   ListaOfi.innerHTML= '' 
   $.ajax({
-    url: "http://localhost:8080/ListarOficios",
+    url: "https://picserv.up.railway.app/ListarOficios",
     type: "GET",
     dataType: "json",
     success: function(respuesta) {
