@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/PICS.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/servicio2.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+  <title>SERVICIOS</title>
+</head>
+
+<body>
+
+  <header class="hero">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+
+      <div class="btn-menu">
+        <label for="btn-menu"> .</label>
+      </div>
+
+      <div class="btn-menu">
+        <label for="btn-menu"> ☰</label>
+      </div>
+
+      <div class="container-fluid" id="divnav">
+        <a class="navbar-brand" href="#">PICSERV</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="trabajador.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                USUARIOS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="formularioninicio.html">Registrate</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Picserv</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <img class="wave" src="../images/figura2.png">
+  <div class="container">
+    <div class="img">
+      <img class="img" src="../images/trabajador.gif">
+    </div>
+    <div class="login-content">
+
+      <div class="h2">
+        <h2>LISTA SERVICIOS</h2>
+      </div>
+      <table class="table table-hover table table-sm" id="mi-tabla">
+        <thead>
+          <tr class="table-info">
+            <th class="th1" scope="col">#</th>
+            <th class="th2" scope="col">DESCRIPCION</th>
+            <th class="th1" scope="col">FECHA_INICIO</th>
+            <th class="th2" scope="col">FECHA_FIN</th>
+            <th class="th1" scope="col">PAGO</th>
+            <th class="th2" scope="col">TITULO</th>
+            <th class="th1" scope="col">UBICACION</th>
+            <th class="th2" scope="col">ACCION</th>
+          </tr>
+          </tr>
+          </tr>
+          </tr>
+        </thead>
+        <tbody id="tablaServicio">
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          
+        </tbody>
+      </table>
+      
+
+      
+
+
+
+    </div>
+
+    <div class="capa"></div>
+    <!--	--------------->
+    <input type="checkbox" id="btn-menu">
+    <div class="container1-menu">
+      <div class="cont-menu">
+        <nav>
+          <a href="misdatostrabaja.html"><img class="icono" id="iconos"  alt=""></a>
+          <a href="servicio2.html">Consultar Servicio</a>
+          <a href="consulcontratatra.html">Consultar Contratacion</a>
+          <a href="eliminarpostula.html">Eliminar Postulacion</a>
+        </nav>
+        <label for="btn-menu">✖️</label>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="../js/servicio2.js"></script>
+  <script src="../js/sesion.js"></script>
+  <script src="../js/trabajador.js"></script>
+  <script src="../js/verservicio.js"></script>
+</body>
+
+</html>

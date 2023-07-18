@@ -1,0 +1,200 @@
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	body{
+		/*background-image: url('https://e0.pxfuel.com/wallpapers/800/210/desktop-wallpaper-background-gradient-blue-ppt-white-gradient.jpg');*/
+		background-size: 100vw 100vh;
+		background-repeat: no-repeat;
+		background-image: url('https://www.ucp.edu.co/portal/wp-content/uploads/2023/05/Figuras-de-fondo.png');
+	}
+	.capa{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		z-index: -1;
+		top: 0;left: 0;
+	}
+
+	.navbar{
+		background-color: white;
+	}
+	
+    
+    .btn-menu{
+        color: #8652ca;
+    }
+
+	.hero{
+		position: fixed;
+		width: 100%;
+		z-index: 10;
+		background-color: white;
+		top: 0;
+		margin-bottom: 20%;
+	}
+
+	/*Menù lateral*/
+	#btn-menu{
+		display: none;
+        margin-left: 50%;
+	}
+	.container-menu{
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		width: 100%;
+		height: 100vh;
+		top: 0;left: 0;
+		transition: all 500ms ease;
+		opacity: 0;
+		visibility: hidden;
+	}
+	#btn-menu:checked ~ .container-menu{
+		opacity: 1;
+		visibility: visible;
+	}
+	.cont-menu{
+		width: 100%;
+		max-width: 250px;
+		background: #1c1c1cb7;
+		height: 100vh;
+		position: relative;
+		transition: all 500ms ease;
+		transform: translateX(-100%);
+		
+	}
+	#btn-menu:checked ~ .container-menu .cont-menu{
+		transform: translateX(0%);
+	}
+	.cont-menu nav{
+		transform: translateY(15%);
+		
+	}
+	.cont-menu nav a{
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		color: #ffffff;
+		border-left: 10px solid transparent;
+		transition: all 400ms ease;
+		
+		
+	}
+	.cont-menu nav a:hover{
+		border-left: 5px solid #c7c7c7;
+		background: #1f1f1f;
+		margin-left: 5%;
+	}
+	.cont-menu label{
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 18px;
+		
+	}
+
+.icono{
+	border-radius: 50%;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.con{
+    width: 1100px;
+    margin: 50px auto;
+	margin-top: 6%;
+    display: flex;
+    justify-content: center;
+	
+}
+
+.trajeta-wrap{
+    margin: 10px;
+    -webkit-perspective: 800;
+    perspective: 800;
+
+}
+
+.tarjeta{
+    width: 300px;
+    height: 150px;
+    background: #c29ff0;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65) ;
+    -moz-box-shadow: 0px 10px 15px -5px rbba(0,0,0,0.65) ;
+    box-shadow: 0px 10px 15px -5px reba(0,0,0,0.65);
+}
+
+.adelante, .atras{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.adelante{
+    width: 100%;
+}
+
+.atras{
+    transform: rotateY(180deg);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: #000;
+    font-family: "open sans";
+}
+
+.trajeta-wrap:hover .tarjeta{
+    transform: rotateY(180deg);
+}
+
+.card1{
+    background-image: url('../images/fondocar2.jpg');
+    background-size: cover;
+}
+
+.card2{
+    background-image: url('../images/fondocar.jpg');
+    background-size: cover;
+}
+
+.card3{
+    background-image: url('../images/fondocar.jpg');
+    background-size: cover;
+}
+
+.card4{
+    background-image: url('../images/fondocar2.jpg');
+    background-size: cover;
+}
+
+
+.cardi2{
+	width: 500px;
+	height: 300px;
+}
+
+.card{
+	margin-bottom: 6%;
+}
+
+
+.ani{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
