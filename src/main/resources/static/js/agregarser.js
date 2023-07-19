@@ -4,7 +4,7 @@ $(document).ready(function () {
   ListaOfi.innerHTML = '';
 
   $.ajax({
-    url: "http://localhost:8080/ListarOficios",
+    url: "https://picserv.up.railway.app/ListarOficios",
     type: "GET",
     dataType: "json",
     success: function (respuesta) {
@@ -28,7 +28,7 @@ $(document).ready(function () {
     let oficio = parseInt($('#select').val())
     let cod = parseInt(localStorage.getItem("idUsuario"));
     let datosEnvio = JSON.stringify(datos);
-    var url = "http://localhost:8080/AgregarServicio/" + cod + "/" + oficio;
+    var url = "https://picserv.up.railway.app/AgregarServicio/" + cod + "/" + oficio;
     $.ajax({
       url: url,
       type: "POST",

@@ -8,7 +8,7 @@ $(document).ready(function() {
 
         $.ajax({
             type: 'POST',
-            url: 'http://localhost:8080/login',
+            url: 'https://picserv.up.railway.app/login',
             data: { idUsuario: idUsuario, contraseña: contraseña },
             success: function(response) {
                 localStorage.setItem('idUsuario', idUsuario);

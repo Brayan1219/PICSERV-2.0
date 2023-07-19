@@ -31,7 +31,7 @@ $(document).ready(function () {
     let cod = parseInt(localStorage.getItem("idUsuario"));
 
     $.ajax({
-        url: "http://localhost:8080/BuscarTrabajador/" + cod,
+        url: "https://picserv.up.railway.app/BuscarTrabajador/" + cod,
         type: "GET",
         dataType: "json",
         success: function (respuesta) {
@@ -83,7 +83,7 @@ $(document).ready(function () {
 
                 // Actualizar los datos del cliente
                 $.ajax({
-                    url: "http://localhost:8080/ActualizarTrabajador",
+                    url: "https://picserv.up.railway.app/ActualizarTrabajador",
                     type: "PUT",
                     dataType: "json",
                     data: JSON.stringify(datosActualizados),

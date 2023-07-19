@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $.ajax({
-        url: "http://localhost:8080/ListarOficios",
+        url: "https://picserv.up.railway.app/ListarOficios",
         type: "GET",
         datatype: "json",
         success: function (respuesta) {
@@ -30,7 +30,7 @@ $(document).ready(function () {
         let datosEnvio = JSON.stringify(datos);
       
         $.ajax({
-          url: "http://localhost:8080/AgregarOficio",
+          url: "https://picserv.up.railway.app/AgregarOficio",
           type: "POST",
           data: datosEnvio,
           contentType: "application/json",

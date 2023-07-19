@@ -2,7 +2,7 @@ $(document).ready(function () {
     let cod = parseInt(localStorage.getItem("idUsuario"));
 
     $.ajax({
-        url: "http://localhost:8080/BuscarTrabajador/" + cod,
+        url: "https://picserv.up.railway.app/BuscarTrabajador/" + cod,
         type: "GET",
         dataType: "json",
         success: function (respuesta) {
@@ -10,7 +10,7 @@ $(document).ready(function () {
             let ofi = idOficio;
 
             $.ajax({
-                url: "http://localhost:8080/BucarServicioOficio/" + ofi,
+                url: "https://picserv.up.railway.app/BucarServicioOficio/" + ofi,
                 type: "GET",
                 dataType: "json",
                 success: function(respuesta) {
@@ -66,7 +66,7 @@ $(document).ready(function () {
         var button = $(this);
         var id_servicio = button.data("id_servicio");
         let cod = parseInt(localStorage.getItem("idUsuario"));
-        var url = "http://localhost:8080/AgregarPostulados/" + cod + "/" + id_servicio;
+        var url = "https://picserv.up.railway.app/AgregarPostulados/" + cod + "/" + id_servicio;
 
         $.ajax({
             url: url,

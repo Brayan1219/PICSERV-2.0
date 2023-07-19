@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let ListaOfi=document.querySelector('#select')
   ListaOfi.innerHTML= '' 
   $.ajax({
-    url: "http://localhost:8080/ListarOficios",
+    url: "https://picserv.up.railway.app/ListarOficios",
     type: "GET",
     dataType: "json",
     success: function(respuesta) {
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let cod=datos.id_trabajador;
     let datosEnvio = JSON.stringify(datos);
     console.log(datosEnvio);
-    var url="http://localhost:8080/AgregarTrabajador/"+cod + "/" +oficio;
+    var url="https://picserv.up.railway.app/AgregarTrabajador/"+cod + "/" +oficio;
     $.ajax({
       url: url,
       type: "POST",

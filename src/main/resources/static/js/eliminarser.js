@@ -3,7 +3,7 @@ $(document).ready(function () {
     let cod = parseInt(localStorage.getItem("idUsuario"));
 
     $.ajax({
-        url: "http://localhost:8080/BucarServicio/" + cod,
+        url: "https://picserv.up.railway.app/BucarServicio/" + cod,
         type: "GET",
         datatype: "JSON",
         success: function (respuesta) {
@@ -44,7 +44,7 @@ $(document).ready(function () {
             .then((willDelete) => {
                 if (willDelete) {
                     $.ajax({
-                        url: "http://localhost:8080/EliminarServicio/" + id_servicio,
+                        url: "https://picserv.up.railway.app/EliminarServicio/" + id_servicio,
                         type: "DELETE",
                         success: function (response) {
                             swal("¡Servicio eliminado!", "El servicio ha sido eliminado correctamente.", "success")

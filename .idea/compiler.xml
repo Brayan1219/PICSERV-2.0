@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Picserv_Backend" />
+        <module name="PICSERV-2.0" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PICSERV-2.0" options="-parameters" />
       <module name="Picserv_Backend" options="-parameters" />
     </option>
   </component>

@@ -5,7 +5,7 @@ $(document).ready(function () {
     let cod = parseInt(localStorage.getItem("id_trabajador"));
 
     $.ajax({
-        url: "http://localhost:8080/BuscarTrabajador/" + cod,
+        url: "https://picserv.up.railway.app/BuscarTrabajador/" + cod,
         type: "GET",
         dataType: "json",
         success: function (respuesta) {

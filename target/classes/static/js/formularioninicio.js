@@ -12,7 +12,7 @@ $(document).ready(function() {
 
       let datosEnvio = JSON.stringify(datos);
       $.ajax({
-        url: "http://localhost:8080/AgregarUsuario",
+        url: "https://picserv.up.railway.app/AgregarUsuario",
         type: "POST",
         data: datosEnvio,
         contentType: "application/json",
@@ -36,7 +36,7 @@ $(document).ready(function() {
       let datosEnvio = JSON.stringify(datos);
     
       $.ajax({
-        url: "http://localhost:8080/AgregarUsuario",
+        url: "https://picserv.up.railway.app/AgregarUsuario",
         type: "POST",
         data: datosEnvio,
         contentType: "application/json",

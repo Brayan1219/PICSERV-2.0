@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $.ajax({
-        url: "http://localhost:8080/ListarPostulados",
+        url: "https://picserv.up.railway.app/ListarPostulados",
         type: "GET",
         dataType: "json",
         success: function (respuesta) {
@@ -60,7 +60,7 @@ $(document).ready(function () {
         var button = $(this);
         var id_servicio = button.data("id_servicio");
         var cod = button.data("id_trabajador");
-        var url = "http://localhost:8080/AgregarContratacion/" + cod + "/" + id_servicio;
+        var url = "https://picserv.up.railway.app/AgregarContratacion/" + cod + "/" + id_servicio;
 
         $.ajax({
             url: url,

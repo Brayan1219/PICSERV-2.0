@@ -21,7 +21,7 @@ $('#formclie').on('click', function() {
   let datosEnvio = JSON.stringify(datos);
 
   $.ajax({
-    url: "http://localhost:8080/AgregarCliente/" + cod,
+    url: "https://picserv.up.railway.app/AgregarCliente/" + cod,
     type: "POST",
     data: datosEnvio,
     contentType: "application/json",

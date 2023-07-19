@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       // Realiza la petición AJAX
       $.ajax({
-        url: "http://localhost:8080/ActualizarServicio",
+        url: "https://picserv.up.railway.app/ActualizarServicio",
         type: "PUT",
         data: JSON.stringify(servicio),
         contentType: "application/json",

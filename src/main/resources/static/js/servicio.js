@@ -3,7 +3,7 @@ $(document).ready(function () {
     let cod = parseInt(localStorage.getItem("idUsuario"));
 
     $.ajax({
-        url: "http://localhost:8080/BucarServicio/" + cod,
+        url: "https://picserv.up.railway.app/BucarServicio/" + cod,
         type: "GET",
         datatype: "json",
         success: function (respuesta) {

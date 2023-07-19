@@ -5,7 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b400e886-a0ae-431c-bcb0-a9727dafc55e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/oficios.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/oficios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/actualizarser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/actualizarser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/agregarser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/agregarser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/cliente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/cliente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/consulcontrata.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/consulcontrata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/consulpostu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/consulpostu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/consultacontratatrabajador.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/consultacontratatrabajador.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/eliminarser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/eliminarser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/formcliente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/formcliente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/formtrabaja.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/formtrabaja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/formularioninicio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/formularioninicio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/misdatoscliente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/misdatoscliente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/misdatostrabaja.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/misdatostrabaja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/oficios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/oficios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/servicio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/servicio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/servicio2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/servicio2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/sesion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/sesion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/trabajador.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/trabajador.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/verservicio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/verservicio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/vertrabajador.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/vertrabajador.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Picserv_Backend/Entidad/Contratacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Picserv_Backend/Entidad/Contratacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Picserv_Backend/Entidad/Postulados.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Picserv_Backend/Entidad/Postulados.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Picserv_Backend/Entidad/Servicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Picserv_Backend/Entidad/Servicio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Picserv_Backend/Entidad/Trabajador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Picserv_Backend/Entidad/Trabajador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Picserv_Backend/Entidad/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Picserv_Backend/Entidad/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/oficios.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/oficios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/actualizarser.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/actualizarser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/agregarser.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/agregarser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/cliente.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/cliente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/consulcontrata.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/consulcontrata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/consulpostu.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/consulpostu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/consultacontratatrabajador.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/consultacontratatrabajador.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/eliminarser.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/eliminarser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/formcliente.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/formcliente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/formtrabaja.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/formtrabaja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/formularioninicio.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/formularioninicio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/misdatoscliente.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/misdatoscliente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/misdatostrabaja.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/misdatostrabaja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/oficios.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/oficios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/servicio.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/servicio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/servicio2.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/servicio2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/sesion.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/sesion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/trabajador.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/trabajador.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/verservicio.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/verservicio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/vertrabajador.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/vertrabajador.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +83,6 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2RCzjZM1YHYmGWrzyZ4y1YRpjBx" />
   <component name="ProjectViewState">
@@ -47,7 +94,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/CASA/Desktop/PICSERV-Brayan/Picserv_Backend_Brayan/src/main/resources/static"
+    "last_opened_file_path": "C:/Users/user/Documents/picserv-liz/PICSERV-2.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,5 +146,16 @@
       <updated>1686768991032</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
