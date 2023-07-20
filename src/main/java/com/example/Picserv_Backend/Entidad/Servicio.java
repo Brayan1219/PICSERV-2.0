@@ -3,6 +3,7 @@ package com.example.Picserv_Backend.Entidad;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
+import java.time.LocalTime;
 import java.util.Date;
 import java.util.Set;
 @Entity
@@ -26,6 +27,8 @@ public class Servicio {
     private Float Pago;
     @Column(length = 30,nullable = false)
     private String Ubicacion;
+    @Column(name = "hora_servicio")
+    private LocalTime hora;
     @Column(name="fecha")
     @Temporal(TemporalType.DATE)
     private Date Fecha_publicacion;
@@ -49,13 +52,14 @@ public class Servicio {
     public Servicio() {
     }
 
-    public Servicio(Cliente cliente, Oficio oficio, String titulo, String descripcion, Float pago, String ubicacion, Date fecha_fin) {
+    public Servicio(Cliente cliente, Oficio oficio, String titulo, String descripcion, Float pago, String ubicacion, LocalTime hora, Date fecha_fin) {
         this.cliente = cliente;
         this.oficio = oficio;
         Titulo = titulo;
         Descripcion = descripcion;
         Pago = pago;
         Ubicacion = ubicacion;
+        this.hora = hora;
         Fecha_fin = fecha_fin;
     }
 
@@ -115,6 +119,14 @@ public class Servicio {
         Ubicacion = ubicacion;
     }
 
+    public LocalTime getHora() {
+        return hora;
+    }
+
+    public void setHora(LocalTime hora) {
+        this.hora = hora;
+    }
+
     public Date getFecha_publicacion() {
         return Fecha_publicacion;
     }
@@ -131,6 +143,22 @@ public class Servicio {
         Fecha_fin = fecha_fin;
     }
 
+    public Set<Postulados> getPostulados() {
+        return postulados;
+    }
+
+    public void setPostulados(Set<Postulados> postulados) {
+        this.postulados = postulados;
+    }
+
+    public Set<Contratacion> getContratacion() {
+        return contratacion;
+    }
+
+    public void setContratacion(Set<Contratacion> contratacion) {
+        this.contratacion = contratacion;
+    }
+
     @Override
     public String toString() {
         return "Servicio{" +
@@ -141,8 +169,11 @@ public class Servicio {
                 ", Descripcion='" + Descripcion + '\'' +
                 ", Pago=" + Pago +
                 ", Ubicacion='" + Ubicacion + '\'' +
+                ", hora=" + hora +
                 ", Fecha_publicacion=" + Fecha_publicacion +
                 ", Fecha_fin=" + Fecha_fin +
+                ", postulados=" + postulados +
+                ", contratacion=" + contratacion +
                 '}';
     }
 }

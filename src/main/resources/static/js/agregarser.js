@@ -20,6 +20,7 @@ $(document).ready(function () {
     let datos = {
       descripcion: $('#descripcion').val(),
       fecha_fin: $('#fecha_fin').val(),
+      hora: $('#tiempo').val(),
       pago: parseFloat($('#pago').val()),
       titulo: $('#titulo').val(),
       ubicacion: $('#ubicacion').val(),
