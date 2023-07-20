@@ -28,6 +28,7 @@ public class Servicio {
     @Column(length = 30,nullable = false)
     private String Ubicacion;
     @Column(name = "hora_servicio")
+    @Temporal(TemporalType.TIME)
     private LocalTime hora;
     @Column(name="fecha")
     @Temporal(TemporalType.DATE)

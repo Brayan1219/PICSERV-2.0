@@ -25,8 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
       let id_servicio = parseInt(localStorage.getItem("id_servicio"));
       let descripcion = document.getElementById("descripcion").value;
       let fecha_fin = document.getElementById("fecha_fin").value;
-      let horaInput = document.getElementById("tiempo").value;
-      let hora = horaInput + ":00";
+      let hora = document.getElementById("tiempo").value;
       let pago = document.getElementById("pago").value;
       let titulo = document.getElementById("titulo").value;
       let ubicacion = document.getElementById("ubicacion").value;
