@@ -19,7 +19,7 @@ $(document).ready(function () {
                 var descripcionCelda = $("<td></td>").text(servicio.descripcion);
                 var fechaInicioCelda = $("<td></td>").text(servicio.fecha_publicacion);
                 var fechaFinCelda = $("<td></td>").text(servicio.fecha_fin);
-                var hora = $("<td></td>").text(servicio.hora);
+                var hora = $("<td></td>").text(servicio.hora_servicio);
                 var pagoCelda = $("<td></td>").text(servicio.pago);
                 var tituloCelda = $("<td></td>").text(servicio.titulo);
                 var ubicacionCelda = $("<td></td>").text(servicio.ubicacion);
@@ -31,7 +31,7 @@ $(document).ready(function () {
                     localStorage.setItem("descripcion", servicio.descripcion);
                     localStorage.setItem("fecha_publicacion", servicio.fecha_publicacion);
                     localStorage.setItem("fecha_fin", servicio.fecha_fin);
-                    localStorage.setItem("hora", servicio.hora);
+                    localStorage.setItem("hora", servicio.hora_servicio);
                     localStorage.setItem("pago", servicio.pago);
                     localStorage.setItem("titulo", servicio.titulo);
                     localStorage.setItem("ubicacion", servicio.ubicacion);
