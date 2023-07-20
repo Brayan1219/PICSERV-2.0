@@ -1,5 +1,6 @@
 package com.example.Picserv_Backend.Entidad;
 
+import com.example.Picserv_Backend.Converters.LocalTimeConverter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
@@ -28,7 +29,7 @@ public class Servicio {
     @Column(length = 30,nullable = false)
     private String Ubicacion;
     @Column(name = "hora_servicio")
-    @Temporal(TemporalType.TIME)
+    @Convert(converter = LocalTimeConverter.class)
     private LocalTime hora;
     @Column(name="fecha")
     @Temporal(TemporalType.DATE)

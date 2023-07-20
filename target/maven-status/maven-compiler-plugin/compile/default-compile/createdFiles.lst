@@ -1,4 +1,5 @@
 com\example\Picserv_Backend\Controlador\ControladorUsuario.class
+com\example\Picserv_Backend\Converters\LocalTimeConverter.class
 com\example\Picserv_Backend\Repositorio\RepositorioCliente.class
 com\example\Picserv_Backend\Repositorio\RepositorioUsuario.class
 com\example\Picserv_Backend\Repositorio\RepositorioPostulados.class
