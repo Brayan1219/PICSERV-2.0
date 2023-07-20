@@ -12,7 +12,7 @@ $(document).ready(function () {
                         var fila = $("<tr></tr>");
 
                         var oficio = servicio.oficio.id_Oficio;
-                        var horaServicio = servicio.hora_servicio;
+                        var horaServicio = servicio.hora;
 
                         var idCelda = $("<th class='table-success' scope='row'></th>").text(servicio.id_servicio);
                         var idoficioCelda = $("<td></td>").text(oficio);
