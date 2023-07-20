@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let id_cliente = parseInt(localStorage.getItem("idUsuario")); 
     let id_oficio = parseInt(localStorage.getItem("idoficio")); 
   
-
+    document.getElementById("id_servicio").value = id_servicio;
     document.getElementById("descripcion").value = descripcion;
     document.getElementById("fecha_publicacion").value = fecha_publicacion;
     document.getElementById("fecha_fin").value = fecha_fin;
@@ -18,7 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("pago").value = pago;
     document.getElementById("titulo").value = titulo;
     document.getElementById("ubicacion").value = ubicacion;
-
+    document.getElementById("id_cliente").value = id_cliente;
+    document.getElementById("id_Oficio").value =id_oficio ;
   
     document.getElementById("actualizarservi").addEventListener("click", function() {
       let id_servicio = parseInt(localStorage.getItem("id_servicio"));

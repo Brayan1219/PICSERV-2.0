@@ -41,7 +41,7 @@ $(document).ready(function () {
                         });
 
                         agregarCelda.append(ActualizarBoton);
-                        fila.append(idCelda, idoficioCelda, descripcionCelda, fechaInicioCelda, fechaFinCelda, horaCelda, pagoCelda, tituloCelda, ubicacionCelda, agregarCelda);
+                        fila.append(idCelda,descripcionCelda, fechaInicioCelda, fechaFinCelda, horaCelda, pagoCelda, tituloCelda, ubicacionCelda, agregarCelda);
                         tablaCuerpo.append(fila);
                     });
                 }
