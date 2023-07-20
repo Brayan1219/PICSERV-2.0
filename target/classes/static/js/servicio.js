@@ -13,12 +13,14 @@ $(document).ready(function () {
                 var fila = $("<tr></tr>");
 
                 var oficio = servicio.oficio.id_Oficio;
+                var hora=servicio.hora_servicio;
 
                 var idCelda = $("<th class='table-success' scope='row'></th>").text(servicio.id_servicio);
                 var idoficioCelda = $("<td></td>").text(oficio);
                 var descripcionCelda = $("<td></td>").text(servicio.descripcion);
                 var fechaInicioCelda = $("<td></td>").text(servicio.fecha_publicacion);
                 var fechaFinCelda = $("<td></td>").text(servicio.fecha_fin);
+                var hora = $("<td></td>").text(hora);
                 var pagoCelda = $("<td></td>").text(servicio.pago);
                 var tituloCelda = $("<td></td>").text(servicio.titulo);
                 var ubicacionCelda = $("<td></td>").text(servicio.ubicacion);
@@ -30,6 +32,7 @@ $(document).ready(function () {
                     localStorage.setItem("descripcion", servicio.descripcion);
                     localStorage.setItem("fecha_publicacion", servicio.fecha_publicacion);
                     localStorage.setItem("fecha_fin", servicio.fecha_fin);
+                    localStorage.setItem("hora", hora);
                     localStorage.setItem("pago", servicio.pago);
                     localStorage.setItem("titulo", servicio.titulo);
                     localStorage.setItem("ubicacion", servicio.ubicacion);
@@ -40,7 +43,7 @@ $(document).ready(function () {
                 });
 
                 agregarCelda.append(ActualizarBoton);
-                fila.append(idCelda, descripcionCelda, fechaInicioCelda, fechaFinCelda, pagoCelda, tituloCelda, ubicacionCelda, agregarCelda);
+                fila.append(idCelda, descripcionCelda, fechaInicioCelda, fechaFinCelda,hora, pagoCelda, tituloCelda, ubicacionCelda, agregarCelda);
                 tablaCuerpo.append(fila)
 
             });
