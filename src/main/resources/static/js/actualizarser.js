@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("descripcion").value = descripcion;
     document.getElementById("fecha_publicacion").value = fecha_publicacion;
     document.getElementById("fecha_fin").value = fecha_fin;
-    document.getElementById("hora").value = hora;
+    document.getElementById("tiempo").value = hora;
     document.getElementById("pago").value = pago;
     document.getElementById("titulo").value = titulo;
     document.getElementById("ubicacion").value = ubicacion;
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
       let id_servicio = parseInt(localStorage.getItem("id_servicio"));
       let descripcion = document.getElementById("descripcion").value;
       let fecha_fin = document.getElementById("fecha_fin").value;
-      let hora = document.getElementById("hora").value;
+      let hora = document.getElementById("tiempo").value;
       let pago = document.getElementById("pago").value;
       let titulo = document.getElementById("titulo").value;
       let ubicacion = document.getElementById("ubicacion").value;
