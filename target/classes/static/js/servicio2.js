@@ -27,10 +27,11 @@ $(document).ready(function () {
                     var tituloCelda = $("<td></td>").text(servicio.titulo);
                     var ubicacionCelda = $("<td></td>").text(servicio.ubicacion);
                     var agregarCelda = $("<td></td>");
-                    var actualizarBoton = $("<button class='btn btn-primary btn-sm'></button>").text("POSTULARSE");
+                    var actualizarBoton = $("<button class='btn btn-success btn-sm'></button>").text("POSTULARSE");
               
                     var agregarotro = $("<td></td>");
-                    var VerBoton = $("<button class='btn btn-primary btn-sm' id='ver'></button>").text("VER");
+                    var VerBoton = $("<button class='btn btn-su
+                     btn-sm' id='ver'></button>").text("VER");
               
                     actualizarBoton.data("id_servicio", servicio.id_servicio);
                     VerBoton.data("id_servicio", parseInt(servicio.id_servicio)); // Convert to integer

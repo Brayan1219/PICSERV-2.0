@@ -1,20 +1,42 @@
 $(document).ready(function () {
-
   let ListaOfi = document.querySelector('#select');
   ListaOfi.innerHTML = '';
 
-  $.ajax({
-    url: "https://picserv.up.railway.app/ListarOficios",
-    type: "GET",
-    dataType: "json",
-    success: function (respuesta) {
-      Object.values(respuesta).forEach(Oficio=>{
-        ListaOfi.innerHTML+='<option value="'+Oficio["id_Oficio"]+'">'+ Oficio["nombre"]+'</option>';
-      })
 
+  const preciosOficios = {
+    1: 70000,
+    2: 120000,
+  };
+
+  // Función para cargar los oficios en el select
+  function cargarOficios() {
+    $.ajax({
+      url: "https://picserv.up.railway.app/ListarOficios",
+      type: "GET",
+      dataType: "json",
+      success: function (respuesta) {
+        Object.values(respuesta).forEach(Oficio => {
+          ListaOfi.innerHTML += '<option value="' + Oficio["id_Oficio"] + '">' + Oficio["nombre"] + '</option>';
+        });
+      }
+    });
+  }
+
+  cargarOficios(); // Cargar los oficios al iniciar la página
+
+  // Función para mostrar el precio cuando se seleccione un oficio
+  function mostrarPrecio() {
+    let selectedOficio = parseInt($('#select').val());
+    let precioOficio = preciosOficios[selectedOficio];
+
+    if (!isNaN(precioOficio)) {
+      $('#pago').val(precioOficio); // Mostrar el precio en el campo de precio
+    } else {
+      $('#pago').val(''); // Si el oficio no tiene precio, limpiar el campo de precio
     }
-  });
+  }
 
+  $('#select').on('change', mostrarPrecio); // Mostrar el precio al cambiar el select
 
   $('#agregarser').on('click', function () {
     let datos = {
@@ -37,38 +59,8 @@ $(document).ready(function () {
       contentType: "application/json",
       dataType: "json",
       success: function (respuesta) {
-        
+        // Aquí puedes realizar alguna acción después de que se agregue el servicio
       }
     });
   });
 });
-
-
-function agregarServicio() {
-  // Obtener los valores de los campos
-  var descripcion = document.getElementById('descripcion').value;
-  var fechaFin = document.getElementById('fecha_fin').value;
-  var pago = document.getElementById('pago').value;
-  var titulo = document.getElementById('titulo').value;
-  var ubicacion = document.getElementById('ubicacion').value;
-
-  // Verificar si los campos están vacíos
-  if (
-    descripcion === '' ||
-    fechaFin === '' ||
-    pago === '' ||
-    titulo === '' ||
-    ubicacion === ''
-  ) {
-    alert('Por favor, complete todos los campos.');
-  } else {
-    // Enviar el formulario o realizar alguna acción adicional
-    // Aquí puedes agregar tu lógica para enviar los datos a través de AJAX o realizar cualquier otra acción necesaria
-    // Por ejemplo, podrías enviar los datos a un servidor utilizando fetch() o XMLHttpRequest
-    // Luego redirigir a otra página
-    location.href = '../html/servicio.html';
-  }
-}
-
-
-

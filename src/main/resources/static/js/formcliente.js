@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function() {
   
   let idUsuario = parseInt(localStorage.getItem("idUsuario"));
 
