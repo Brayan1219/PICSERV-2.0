@@ -4,8 +4,11 @@ $(document).ready(function () {
 
 
   const preciosOficios = {
-    1: 70000,
+    1: 80000,
     2: 120000,
+    3: 60000,
+    4: 35000,
+    5: 20000
   };
 
   // Función para cargar los oficios en el select
