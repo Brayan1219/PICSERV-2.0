@@ -11,7 +11,7 @@ $(document).ready(function () {
             var descripcion = respuesta.descripcion;
             var ubicacion = respuesta.ubicacion;
             var pago = respuesta.pago;
-            var fecha_fin = respuesta.fecha_fin;
+            var fecha_fin = respuesta.hora;
 
             // Asignar los valores a los inputs
             $("#titulo").text(titulo);
