@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b400e886-a0ae-431c-bcb0-a9727dafc55e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/agregarser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/agregarser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/agregarser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/agregarser.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

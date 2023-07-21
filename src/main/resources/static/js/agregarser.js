@@ -2,11 +2,11 @@ $(document).ready(function () {
   let ListaOfi = document.querySelector('#select');
   ListaOfi.innerHTML = '';
 
-  // Objeto con precios predefinidos para cada oficio
+  
   const preciosOficios = {
-    1: 10,   // Oficio 1: Precio $10
-    2: 15,   // Oficio 2: Precio $15  
-    // Agrega más oficios y sus precios aquí
+    1: 70000,
+    2: 120000,
+
   };
 
   // Función para cargar los oficios en el select
