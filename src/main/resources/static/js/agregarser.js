@@ -2,11 +2,10 @@ $(document).ready(function () {
   let ListaOfi = document.querySelector('#select');
   ListaOfi.innerHTML = '';
 
-  
+
   const preciosOficios = {
     1: 70000,
     2: 120000,
-
   };
 
   // Función para cargar los oficios en el select

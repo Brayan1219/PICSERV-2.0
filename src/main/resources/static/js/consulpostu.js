@@ -32,7 +32,7 @@ $(document).ready(function () {
                 
 
                 var agregarotro = $("<td></td>");
-                var VerBoton = $("<button class='btn btn-primary btn-sm' id='ver'></button>").text("Ver");
+                var VerBoton = $("<button class='btn btn-success btn-sm' id='ver'></button>").text("Ver");
 
                 contratarBoton.data("id_servicio", idServicio);
                 contratarBoton.data("id_trabajador", idTrabajador);
