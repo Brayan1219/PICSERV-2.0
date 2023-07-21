@@ -5,8 +5,7 @@ $(document).ready(function () {
   // Objeto con precios predefinidos para cada oficio
   const preciosOficios = {
     1: 10,   // Oficio 1: Precio $10
-    2: 15,   // Oficio 2: Precio $15
-    3: 20,   // Oficio 3: Precio $20
+    2: 15,   // Oficio 2: Precio $15  
     // Agrega más oficios y sus precios aquí
   };
 
@@ -32,9 +31,9 @@ $(document).ready(function () {
     let precioOficio = preciosOficios[selectedOficio];
 
     if (!isNaN(precioOficio)) {
-      $('#precio').val(precioOficio); // Mostrar el precio en el campo de precio
+      $('#pago').val(precioOficio); // Mostrar el precio en el campo de precio
     } else {
-      $('#precio').val(''); // Si el oficio no tiene precio, limpiar el campo de precio
+      $('#pago').val(''); // Si el oficio no tiene precio, limpiar el campo de precio
     }
   }
 
